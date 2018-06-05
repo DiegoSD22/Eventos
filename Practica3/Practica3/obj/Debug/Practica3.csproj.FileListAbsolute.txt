@@ -1,0 +1,26 @@
+C:\Users\T-\source\repos\Practica3\Practica3\bin\Debug\Practica3.exe.config
+C:\Users\T-\source\repos\Practica3\Practica3\bin\Debug\Practica3.exe
+C:\Users\T-\source\repos\Practica3\Practica3\bin\Debug\Practica3.pdb
+C:\Users\T-\source\repos\Practica3\Practica3\obj\Debug\Practica3.csprojResolveAssemblyReference.cache
+C:\Users\T-\source\repos\Practica3\Practica3\obj\Debug\Practica3.Entrada.resources
+C:\Users\T-\source\repos\Practica3\Practica3\obj\Debug\Practica3.Properties.Resources.resources
+C:\Users\T-\source\repos\Practica3\Practica3\obj\Debug\Practica3.csproj.GenerateResource.cache
+C:\Users\T-\source\repos\Practica3\Practica3\obj\Debug\Practica3.csproj.CoreCompileInputs.cache
+C:\Users\T-\source\repos\Practica3\Practica3\obj\Debug\Practica3.exe
+C:\Users\T-\source\repos\Practica3\Practica3\obj\Debug\Practica3.pdb
+E:\Programacion orientada a eventos\Practica3\Practica3\bin\Debug\Practica3.exe.config
+E:\Programacion orientada a eventos\Practica3\Practica3\bin\Debug\Practica3.exe
+E:\Programacion orientada a eventos\Practica3\Practica3\bin\Debug\Practica3.pdb
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.csprojResolveAssemblyReference.cache
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.Entrada.resources
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.Properties.Resources.resources
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.csproj.GenerateResource.cache
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.csproj.CoreCompileInputs.cache
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.exe
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.pdb
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.Admin.resources
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.Alumno.resources
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.Noregis.resources
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.Registro.resources
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.Caratula.resources
+E:\Programacion orientada a eventos\Practica3\Practica3\obj\Debug\Practica3.Consulta.resources
