@@ -1,0 +1,15 @@
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\bin\Debug\Proyecto.exe.config
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\bin\Debug\Proyecto.exe
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\bin\Debug\Proyecto.pdb
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\obj\Debug\Proyecto.Inicio.resources
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\obj\Debug\Proyecto.Properties.Resources.resources
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.GenerateResource.cache
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\obj\Debug\Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\obj\Debug\Proyecto.exe
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\obj\Debug\Proyecto.pdb
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\obj\Debug\Proyecto.csprojAssemblyReference.cache
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\obj\Debug\Proyecto.Administrador.resources
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\obj\Debug\Proyecto.Compras.resources
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\obj\Debug\Proyecto.Agregar.resources
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\obj\Debug\Proyecto.Borrar.resources
+C:\Users\daam_\Documents\Proyecto Eventos\Proyecto\Proyecto\obj\Debug\Proyecto.Editar.resources
