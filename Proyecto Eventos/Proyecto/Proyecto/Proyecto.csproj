@@ -57,11 +57,29 @@
     <Compile Include="Agregar.Designer.cs">
       <DependentUpon>Agregar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Audio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Audio.Designer.cs">
+      <DependentUpon>Audio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Borrar.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Borrar.Designer.cs">
       <DependentUpon>Borrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Caballeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Caballeros.Designer.cs">
+      <DependentUpon>Caballeros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Carrito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carrito.Designer.cs">
+      <DependentUpon>Carrito.cs</DependentUpon>
     </Compile>
     <Compile Include="Compras.cs">
       <SubType>Form</SubType>
@@ -75,13 +93,31 @@
     <Compile Include="Editar.Designer.cs">
       <DependentUpon>Editar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Electronica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Electronica.Designer.cs">
+      <DependentUpon>Electronica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Inicio.Designer.cs">
       <DependentUpon>Inicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="LineaBlanca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LineaBlanca.Designer.cs">
+      <DependentUpon>LineaBlanca.cs</DependentUpon>
+    </Compile>
     <Compile Include="Metodos.cs" />
+    <Compile Include="Musica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Musica.Designer.cs">
+      <DependentUpon>Musica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Administrador.resx">
@@ -90,8 +126,17 @@
     <EmbeddedResource Include="Agregar.resx">
       <DependentUpon>Agregar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Audio.resx">
+      <DependentUpon>Audio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Borrar.resx">
       <DependentUpon>Borrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Caballeros.resx">
+      <DependentUpon>Caballeros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carrito.resx">
+      <DependentUpon>Carrito.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Compras.resx">
       <DependentUpon>Compras.cs</DependentUpon>
@@ -99,8 +144,17 @@
     <EmbeddedResource Include="Editar.resx">
       <DependentUpon>Editar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Electronica.resx">
+      <DependentUpon>Electronica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LineaBlanca.resx">
+      <DependentUpon>LineaBlanca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Musica.resx">
+      <DependentUpon>Musica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -110,6 +164,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -123,6 +178,255 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4A7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Compras.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\electronica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lineab.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caballeros.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\damas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 fondo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8 fondo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\450_1000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13137.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\907134016658889A22184D988C0622BF.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acer-predators.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alienware-Area51-AMD-Threadripper-Intel-CoreX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\celular-libre-iphone-x-64gb-entrega-inmediata-D_NQ_NP_796192-MCO26287680141_112017-F.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\get.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HP-Omen-X.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huawei-p20-pro-128gb-dual-sim-twilight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iPadPro2018_20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_XL_22985816_32270036.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xbox-one-x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30-a-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\640x640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6175290075_0b8ea4b880.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bateria-yamaha-gigmaker-sin-platillos-bombo-20-D_NQ_NP_927501-MLV20356332089_072015-F.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\D_Q_NP_981303-MLA26430500706_112017-Q.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LPF18WCNH1_Gibson_Les_Paul_Faded_Worn_Cherry_622x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R-369183-1215358420.jpeg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R-650923-1143415230.jpeg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R-3675984-1339931086-5350.jpeg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51YjPf6Xx+L._SY355_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61exUZ9FQoL._SL1000_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7706060025122.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LG-Smart-Diagnosis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lg-smart-instaview-refrigerador-webos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LI-17V.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mabe_microondas_1_4cuft_espejo_hmm114sej_frente.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\separan-focus-0-0-628-524.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\category-banner-microondas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1032193_mx_home_lavadoras_440x300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lic-250x250.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fghb2867td.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product-image-8806084137333-1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mirror2__56929_std.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMWD-MINI-Household-Bread-baking-maker-toaster-toast-oven-Fried-Egg-boiled-eggs-Cooker-multifunction-sandwich.jpg_640x640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60B.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrito.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audifonosbose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audifonossony.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beats.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buffer pioneer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\endus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jbl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jblbuffer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pioneer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\portatil.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rane.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skullcandy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sony.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stanton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tornamesareloop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3-caballeros-boton-traje-gris-ver-titulo-original-hombre-trajes-ropa-hombre-qvnqv0sg-2757-500x500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\175593-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\345011.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1508808086450465157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A0o-9946_1_b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss-camisa-ismo-para-caballeros-ver-titulo-original-hombre-camisas-de-vestir-ropa-h--8843-500x500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camisa-para-hombre-vestido-de-algod-n-moda-m-s-tama-o-de-manga-larga-Casual.jpg_640x640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camisas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chamarras-Caballero.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diesel-chi-groove-79e-caballeros-senores-pantalon-chino-stretch-beige-ver-titulo-ori-3997-500x500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pansky-formalni-zimni-kabat-cerne-barvy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Playeras-Caballero.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ropa-para-caballeros-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sacos.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

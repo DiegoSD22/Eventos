@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,259 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rane.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 fondo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="beats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beats.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Alienware-Area51-AMD-Threadripper-Intel-CoreX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Alienware-Area51-AMD-Threadripper-Intel-CoreX.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mirror2__56929_std" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mirror2__56929_std.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7706060025122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7706060025122.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="907134016658889A22184D988C0622BF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\907134016658889A22184D988C0622BF.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LPF18WCNH1_Gibson_Les_Paul_Faded_Worn_Cherry_622x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LPF18WCNH1_Gibson_Les_Paul_Faded_Worn_Cherry_622x400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skullcandy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skullcandy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bateria-yamaha-gigmaker-sin-platillos-bombo-20-D_NQ_NP_927501-MLV20356332089_072015-F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bateria-yamaha-gigmaker-sin-platillos-bombo-20-D_NQ_NP_927501-MLV20356332089_072015-F.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Playeras-Caballero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Playeras-Caballero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LG-Smart-Diagnosis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LG-Smart-Diagnosis.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tornamesareloop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tornamesareloop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61exUZ9FQoL._SL1000_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61exUZ9FQoL._SL1000_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="51YjPf6Xx+L._SY355_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51YjPf6Xx+L._SY355_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="huawei-p20-pro-128gb-dual-sim-twilight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\huawei-p20-pro-128gb-dual-sim-twilight.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lic-250x250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lic-250x250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4A7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4A7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_XL_22985816_32270036" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item_XL_22985816_32270036.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6175290075_0b8ea4b880" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6175290075_0b8ea4b880.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xbox-one-x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbox-one-x.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="175593-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\175593-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DMWD-MINI-Household-Bread-baking-maker-toaster-toast-oven-Fried-Egg-boiled-eggs-Cooker-multifunction-sandwich.jpg_640x640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMWD-MINI-Household-Bread-baking-maker-toaster-toast-oven-Fried-Egg-boiled-eggs-Cooker-multifunction-sandwich.jpg_640x640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3-caballeros-boton-traje-gris-ver-titulo-original-hombre-trajes-ropa-hombre-qvnqv0sg-2757-500x500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3-caballeros-boton-traje-gris-ver-titulo-original-hombre-trajes-ropa-hombre-qvnqv0sg-2757-500x500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="D_Q_NP_981303-MLA26430500706_112017-Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\D_Q_NP_981303-MLA26430500706_112017-Q.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\log.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13137" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13137.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lg-smart-instaview-refrigerador-webos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lg-smart-instaview-refrigerador-webos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 fondo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 fondo1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="portatil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\portatil.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1508808086450465157" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1508808086450465157.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fghb2867td" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fghb2867td.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="60B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1032193_mx_home_lavadoras_440x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1032193_mx_home_lavadoras_440x300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="acer-predators" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\acer-predators.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="345011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\345011.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="damas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\damas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Camisas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Camisas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R-3675984-1339931086-5350.jpeg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R-3675984-1339931086-5350.jpeg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="celular-libre-iphone-x-64gb-entrega-inmediata-D_NQ_NP_796192-MCO26287680141_112017-F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\celular-libre-iphone-x-64gb-entrega-inmediata-D_NQ_NP_796192-MCO26287680141_112017-F.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chamarras-Caballero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chamarras-Caballero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="640x640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\640x640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="30-a-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30-a-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lineab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lineab.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black-login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black-login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HP-Omen-X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HP-Omen-X.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jbl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jbl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="separan-focus-0-0-628-524" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\separan-focus-0-0-628-524.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maxresdefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maxresdefault.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mabe_microondas_1_4cuft_espejo_hmm114sej_frente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mabe_microondas_1_4cuft_espejo_hmm114sej_frente.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="category-banner-microondas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\category-banner-microondas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="caballeros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\caballeros.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Camisa-para-hombre-vestido-de-algod-n-moda-m-s-tama-o-de-manga-larga-Casual.jpg_640x640" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Camisa-para-hombre-vestido-de-algod-n-moda-m-s-tama-o-de-manga-larga-Casual.jpg_640x640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audifonosbose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audifonosbose.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ropa-para-caballeros-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ropa-para-caballeros-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diesel-chi-groove-79e-caballeros-senores-pantalon-chino-stretch-beige-ver-titulo-ori-3997-500x500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diesel-chi-groove-79e-caballeros-senores-pantalon-chino-stretch-beige-ver-titulo-ori-3997-500x500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stanton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stanton.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jblbuffer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jblbuffer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iPadPro2018_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iPadPro2018_20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sony" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sony.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A0o-9946_1_b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A0o-9946_1_b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="450_1000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\450_1000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R-650923-1143415230.jpeg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R-650923-1143415230.jpeg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buffer pioneer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buffer pioneer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bose.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Compras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Compras.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="product-image-8806084137333-1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\product-image-8806084137333-1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="endus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\endus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 fondo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 fondo2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LI-17V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LI-17V.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carrito" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrito.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="get" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\get.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="musica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boss-camisa-ismo-para-caballeros-ver-titulo-original-hombre-camisas-de-vestir-ropa-h--8843-500x500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boss-camisa-ismo-para-caballeros-ver-titulo-original-hombre-camisas-de-vestir-ropa-h--8843-500x500.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audifonossony" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audifonossony.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R-369183-1215358420.jpeg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R-369183-1215358420.jpeg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pioneer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pioneer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pansky-formalni-zimni-kabat-cerne-barvy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pansky-formalni-zimni-kabat-cerne-barvy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="electronica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\electronica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sacos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sacos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
