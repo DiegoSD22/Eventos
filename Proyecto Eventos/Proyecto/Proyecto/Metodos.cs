@@ -20,7 +20,7 @@ namespace Proyecto
 {
     class Metodos
     {
-        public static string cad_con= "Provider = Microsoft.Jet.OLEDB.4.0; Data Source = C:/Users/daam_/Documents/Proyecto Eventos/Proyecto/Proyecto.mdb";
+        public static string cad_con = "Provider = Microsoft.Jet.OLEDB.4.0; Data Source = E:/Programacion orientada a eventos/Proyecto Eventos/Proyecto/Proyecto.mdb";
         public static OleDbConnection con;
         public static string estado="A";
         public static string estadou = "U";

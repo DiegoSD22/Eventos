@@ -13,6 +13,7 @@ namespace Proyecto
 {
     public partial class Inicio : Form
     {
+        public static string usuario;
         string estado = "A";
         public Inicio()
         {
@@ -59,13 +60,20 @@ namespace Proyecto
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             Metodos.Iniciar(textBox1.Text, textBox2.Text);
+            usuario = textBox1.Text;
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
